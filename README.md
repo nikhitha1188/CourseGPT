@@ -51,44 +51,12 @@ bash
 git clone https://github.com/yourusername/coursegpt.git
 cd coursegpt
 
-# Install frontend dependencies
-cd frontend
-npm install
-
-# Install backend dependencies
-cd ../backend
-pip install -r requirements.txt
-`
-
 ## ⚙ Running Locally
 
 bash
 # Start backend server
 cd backend
 python app.py
-
-# Start frontend
-cd frontend
-npm run dev
-
-
-## 📄 Documentation
-
-See the `docs/` folder or Notion page (if applicable) for:
-
-* Architecture diagram
-* API request examples
-* Developer setup guide
-
-## 👤 Author / Intern Contribution
-
-* Built AI integration for lesson generation
-* Developed lesson editor and module organization tools
-* Designed user interface and deployed working prototype
-
-## 📸 Screenshots
-
-Add screenshots of your UI or features here.
 
 ## 📚 License
 
