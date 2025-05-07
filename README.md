@@ -34,23 +34,9 @@ CourseGPT streamlines the course creation process by integrating AI to assist in
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React.js, Next.js
-- **Backend**: Flask or Node.js (OpenAI API integrated)
-- **Deployment**: Vercel (Frontend), Render/Railway (Backend)
-- **Data Storage**: Local storage / Firebase (for prototype)
-
-## 📁 Folder Structure
-
-
-
-coursegpt/
-├── frontend/          # React/Next.js code
-├── backend/           # Flask or Node backend
-├── public/            # Static assets
-├── README.md
-├── .env               # API keys and environment variables
-
-`
+- **Frontend**: React.js, HTML , CSS
+- **Backend**: Flask (Gemini API integrated)
+- **Deployment**: Vercel 
 
 ## 🧠 How It Works
 
