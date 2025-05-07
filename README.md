@@ -1,1 +1,109 @@
-# CourseGPT
+# CourseGPT – AI-Powered Course Authoring Platform
+
+CourseGPT is an intelligent web-based authoring tool designed to help educators and content creators generate, organize, and refine high-quality educational content with the assistance of AI.
+
+## 🚀 Live Demo
+[Deployed URL here] – Replace with your deployed app link.
+
+## 🔍 Overview
+
+CourseGPT streamlines the course creation process by integrating AI to assist in:
+- Generating structured lessons from simple topic inputs
+- Organizing lessons into logically sequenced modules
+- Providing a rich, editable interface for refining AI-generated content
+
+## ✨ Core Features
+
+### 1. Lesson Generator
+- Input: Topic and brief description
+- Output: 
+  - Title and lesson summary
+  - Learning objectives
+  - Key concepts and terminology
+  - Example-based activities
+
+### 2. Module Organizer
+- Group related lessons into modules
+- Add metadata: prerequisites, difficulty, estimated time
+- Sequence lessons logically
+
+### 3. Interactive Editor
+- Edit any section of the generated lesson
+- Regenerate specific sections using AI
+- Format content with an easy-to-use editor
+
+## 🛠 Tech Stack
+
+- **Frontend**: React.js, Next.js
+- **Backend**: Flask or Node.js (OpenAI API integrated)
+- **Deployment**: Vercel (Frontend), Render/Railway (Backend)
+- **Data Storage**: Local storage / Firebase (for prototype)
+
+## 📁 Folder Structure
+
+
+
+coursegpt/
+├── frontend/          # React/Next.js code
+├── backend/           # Flask or Node backend
+├── public/            # Static assets
+├── README.md
+├── .env               # API keys and environment variables
+
+`
+
+## 🧠 How It Works
+
+1. User enters a topic or concept.
+2. AI generates a complete lesson with learning objectives, concepts, and activities.
+3. User edits, organizes, and customizes the content using the editor and module tools.
+
+## 📦 Installation
+
+bash
+# Clone the repository
+git clone https://github.com/yourusername/coursegpt.git
+cd coursegpt
+
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../backend
+pip install -r requirements.txt
+`
+
+## ⚙ Running Locally
+
+bash
+# Start backend server
+cd backend
+python app.py
+
+# Start frontend
+cd frontend
+npm run dev
+
+
+## 📄 Documentation
+
+See the `docs/` folder or Notion page (if applicable) for:
+
+* Architecture diagram
+* API request examples
+* Developer setup guide
+
+## 👤 Author / Intern Contribution
+
+* Built AI integration for lesson generation
+* Developed lesson editor and module organization tools
+* Designed user interface and deployed working prototype
+
+## 📸 Screenshots
+
+Add screenshots of your UI or features here.
+
+## 📚 License
+
+This project is open-source and free to use under the MIT License.
